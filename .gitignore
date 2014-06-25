@@ -1,0 +1,14 @@
+.project
+.settings/
+.pydevproject
+
+__pycache__/
+*.py[cod]
+
+build/
+dist/
+sdist/
+
+docs/_build/
+docs/_static/
+docs/_templates/
