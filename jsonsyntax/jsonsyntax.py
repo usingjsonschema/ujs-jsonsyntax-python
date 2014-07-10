@@ -5,7 +5,7 @@ Usage: jsonsyntax filename
    filename   JSON file to check syntax of
 
 Exit code
-  exit code: 0 for success, 1 for failure.
+    exit code: 0 for success, 1 for failure.
 """
 
 # import modules
@@ -16,19 +16,19 @@ import json
 class CheckSyntaxError (Exception):
     """
     Error definition thrown when an error occurs.
-    
+
     - error code 1: Invalid name.
     - error code 2: File does not exist.
     - error code 3: Error reading file.
     - error code 4: JSON syntax error.
-    
+
     """
     def __init__ (self, code, message):
         """
         Create error instance holding ``code`` and ``message``.
         :param code: Error number.
         :type code: int
-        :parma message: Text message, suitable for display.
+        :param message: Text message, suitable for display.
         :type message: str
         """
         super (CheckSyntaxError, self).__init__ ()
@@ -38,7 +38,7 @@ class CheckSyntaxError (Exception):
 def checkSyntax (file):
     """
     Check syntax of ``file`` passed in command line argument.
-    
+
     :param file: File to check
     :type file: str
     :raises: CheckSyntaxError

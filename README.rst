@@ -42,16 +42,14 @@ Installation using pip for Python 2 (2.7) or Python 3.
 
 .. code-block:: bash
 
-pip install ujs-jsonsyntax
+    pip install ujs-jsonsyntax
 
 Project
 -------
-
 ``jsonsyntax`` is part of the
 `Using JSON Schema <http://usingjsonschema.github.io>`_
 project.
 
 License
 -------
-
 MIT
