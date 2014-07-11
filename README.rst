@@ -5,6 +5,10 @@ JSON Syntax Check
 .. image:: https://travis-ci.org/usingjsonschema/ujs-jsonsyntax-python.svg?branch=master
     :target: https://travis-ci.org/usingjsonschema/ujs-jsonsyntax-python
 
+Part of the
+`Using JSON Schema <http://usingjsonschema.github.io>`_
+project.
+
 The 'hello world' of JSON processing, check the syntax of a JSON file.
 
 For command line/script use, a console message is displayed and the process
@@ -43,12 +47,6 @@ Installation using pip for Python 2 (2.7) or Python 3.
 .. code-block:: bash
 
     pip install ujs-jsonsyntax
-
-Project
--------
-``jsonsyntax`` is part of the
-`Using JSON Schema <http://usingjsonschema.github.io>`_
-project.
 
 License
 -------
