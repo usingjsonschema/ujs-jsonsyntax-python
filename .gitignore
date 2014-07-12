@@ -9,6 +9,7 @@ MANIFEST
 build/
 dist/
 sdist/
+*.egg-info/
 
 docs/_build/
 docs/_static/
